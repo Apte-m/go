@@ -7,7 +7,7 @@ import (
 func main() {
 
 }
-
+// example
 type SmartList struct {
 	words []string
 }

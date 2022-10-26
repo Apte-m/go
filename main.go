@@ -1,20 +1,10 @@
 package main
 
 import (
-	"bufio"
 	"fmt"
-	"io"
-	"strconv"
 )
 
 func main() {
-	
-	 
-
-      
-	 
-
-
 
 }
 
@@ -28,10 +18,10 @@ func New(newWords []string) *SmartList {
 
 type Count int
 
-// Sort words and printed it
+
 func (sl *SmartList) GetAnswer() {
-	count := []rune(sl.words[0])
-	strconv.Atoi(string(count))
-	fmt.Print(strconv.Atoi(string(count)))
+	// count := []rune(sl.words[0])
+	// strconv.Atoi(string(count))
+	// fmt.Print(strconv.Atoi(string(count)))
 
 }
